@@ -12,4 +12,81 @@
 
 body {
   background: var(--black);
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  text-transform: uppercase;
+  margin-left: 10px;
+  color: var(--red);
+  font-family: "Arial Black", Times;
+  font-size: 40px;
+}
+
+header nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*Filme principal*/
+.filme-principal {
+  font-size: 16px;
+
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/viuva-negra-poster.jpg');
+  background-size: cover;
+
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .titulo {
+  margin-top: 15px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .descricao {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.botao {
+  padding: 15px 30px;
+  border: none;
+  background-color: rgba(0, 0, 0, .50);
+  color: white;
+  margin-right: 15px;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+
+  font-size: 12px;
+}
+
+.botao:hover {
+  color: black;
+  background-color: white;
+  transition: .5s ease all;
+}
+
+.botao i {
+  margin-right: 8px;
 }
