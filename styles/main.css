@@ -47,7 +47,7 @@ header nav a:hover {
   background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/viuva-negra-poster.jpg');
   background-size: cover;
 
-  height: 500px;
+  height: 550px;
 
   display: flex;
   flex-direction: column;
@@ -63,6 +63,7 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
+  text-align: justify;
   margin-top: 15px;
   margin-bottom: 40px;
 }
@@ -89,4 +90,21 @@ header nav a:hover {
 
 .botao i {
   margin-right: 8px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.filme-principal .container {
+  width: 50%;
+  min-width: 550px;
+}
+
+.box-filme {
+  cursor: pointer;
+  margin: 10px 0;
+  height: 100%;
+  width: 100%;
+  display: block;
 }
